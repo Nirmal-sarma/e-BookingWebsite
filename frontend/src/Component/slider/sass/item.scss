@@ -1,0 +1,29 @@
+.col{
+    margin-top: 2rem;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-column-gap: 0.5rem;
+grid-template-rows: 1fr;
+ 
+
+    &__item1{
+        background-image: url('../Images/pic1.jpg');
+    }
+    &__item2{
+        background-image: url('../Images/pic2.jpg');
+
+    }
+    &__item3{
+        background-image: url('../Images/pic3.jpg');
+    }
+
+    &__item4{
+        background-image: url('../Images/pic4.jpg');
+    }
+    .item{
+        height: 10rem;
+        width: 4rem;
+        background-position: cover;
+        background-repeat: no-repeat;
+    } 
+}
