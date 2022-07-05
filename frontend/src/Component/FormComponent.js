@@ -1,6 +1,6 @@
-import React from "react";
-import "./FormContainer.css";
-import { Form, Button } from "react-bootstrap";
+import React from 'react';
+import './FormContainer.css';
+import { Form, Button } from 'react-bootstrap';
 
 const FormComponent = () => {
   return (
