@@ -10,8 +10,7 @@ function App() {
     <>
       <Header />
       <FormComponent />
-
-      <Slider />
+       <Slider />
     </>
   );
 }
