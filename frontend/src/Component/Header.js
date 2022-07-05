@@ -1,16 +1,20 @@
 import React from 'react';
+import './Header.css';
 import { Navbar,Nav,Container } from 'react-bootstrap';
 export default function Header() {
   return (
       <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <Navbar className="NavBar"  variant="light">
+        <Container className="NavBarContainer">
+        <Navbar.Brand className="Logo" href="#home">LetsGo</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link className="Page"  href="#home"><div class="Page">Flight</div></Nav.Link>
+          <Nav.Link className="Page" href="#features"><div class="Page">Train</div></Nav.Link>
+          <Nav.Link className="Page" href="#pricing"><div class="Page">Bus</div></Nav.Link>
+          <Nav.Link className="Page" href="#pricing"><div class="Page">Hotels</div></Nav.Link>
+
         </Nav>
+        <Nav.Link className='signIn' href="#Signin">SignIn</Nav.Link>
         </Container>
       </Navbar>
       <br />
