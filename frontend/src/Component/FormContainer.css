@@ -1,0 +1,24 @@
+.formDiv{
+    width:30%;
+    height:500px;
+    background-color:pink ;
+    margin-left:10px;
+    opacity:0.9;
+    box-shadow: 5px 5px 15px rgb(77, 59, 69);
+    border-radius: 10px;
+}
+
+.formClass1{
+    position:absolute;
+    width:20%;
+    left:20px;
+}
+
+.formClass2{
+    color: green;
+    font-weight:900;
+}
+
+.text1{
+    font-family:fantasy;
+}
