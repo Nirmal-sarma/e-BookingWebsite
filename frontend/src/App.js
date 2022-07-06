@@ -1,15 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FormComponent from './Component/FormComponent';
 
 import Slider from './Component/slider/Slider';
 import Header from './Component/Header';
+import Cards from './Component/Cards';
 
 function App() {
   return (
     <>
       <Header />
-      <FormComponent />
+      <Cards/>
        <Slider />
     </>
   );

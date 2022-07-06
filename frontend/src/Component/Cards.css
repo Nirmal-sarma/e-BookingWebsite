@@ -1,0 +1,50 @@
+
+.container{
+    position:relative;
+}
+.card-container{
+   height:30rem;
+   width:25rem;
+    border-radius: 10px;
+   transition: transform 1s ease-in-out;
+   transform-style: preserve-3d;
+}
+
+.card-container:hover{
+    transform: rotateY(180deg);
+}
+
+.card-container figure{
+    position: absolute;
+    height:30rem;
+    width:25rem;
+    border-radius: 10px;
+    border:solid 2px rgb(196, 115, 49);
+}
+
+.card-container .first{
+    position:absolute;
+    backface-visibility: hidden;
+    width:30rem;
+    height:25rem;
+}
+
+.card-container .second{
+    position: absolute;
+    backface-visibility: hidden;
+    width:30rem;
+    height:25rem;
+    transform:rotateY(180deg);
+    align-items: center;
+} 
+
+.src{
+    width:29.6rem;
+    height:20rem;
+
+}
+
+.secondpara{
+    margin-left: 5rem;
+    margin-top:4rem;
+}
