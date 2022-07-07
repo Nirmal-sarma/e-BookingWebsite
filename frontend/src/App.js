@@ -6,7 +6,7 @@ import Header from './Component/Header';
 import Cards from './Component/Cards';
 
 import Train from './Component/pages/Train';
-import Flight from './Component/pages/Flight';
+import Flight from './Component/pages/Flight/Flight';
 import Bus from './Component/pages/Bus';
 import Hotel from './Component/pages/Hotel';
 import Home from './Component/pages/Home';
