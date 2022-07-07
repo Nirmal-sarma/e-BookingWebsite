@@ -1,9 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import Header from './Component/Header';
-
 import Train from './Component/pages/Train/Train';
 import Flight from './Component/pages/Flight/Flight';
 import Bus from './Component/pages/Bus/Bus';
@@ -24,8 +22,6 @@ function App() {
           <Route exact path="/Bus" element={<Bus />} />
           <Route exact path="/Hotel" element={<Hotel />} />
         </Routes>
-        <Cards />
-        <Slider />
       </Router>
     </>
   );
