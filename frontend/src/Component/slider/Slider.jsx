@@ -1,13 +1,12 @@
 import React from 'react';
 import Text from './Text';
-import './sass/main.scss';
+
 function Slider() {
   return (
     <>
       <div className="slider">
         <Text />
       </div>
-      {/* Carousel part is  difficult , I was trying since 12 pm till now , but I am unable to do till now. */}
     </>
   );
 }
