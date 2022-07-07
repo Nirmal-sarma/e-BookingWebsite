@@ -12,22 +12,10 @@ const Cards = () => {
               alt="image"
               className="src"
             />
-            <center><button className="btn btn-danger">Click here</button></center>
+            <center><b>Luxe properties in India</b></center>
           </figure>
           <figure className="second com">
-            <div className="secondpara">
-              Lorem ipsum dolor sit amet,
-              <br />
-              consectetur adipisicing elit.
-              <br />
-              Excepturi recusandae fugit non
-              <br />
-              quisquam iste minima fugiat,
-              <br />
-              cum minus velit facere?
-              <br />
-              <button>Book Now</button>
-            </div>
+            <button className="btn btn-light">Book Now</button>
           </figure>
         </div>
       </div>
