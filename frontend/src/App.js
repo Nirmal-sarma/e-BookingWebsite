@@ -15,6 +15,7 @@ function App() {
     <>
       <Router>
         <Header />
+        <div id="Content">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Flight" element={<Flight />} />
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/Bus" element={<Bus />} />
           <Route exact path="/Hotel" element={<Hotel />} />
         </Routes>
+        </div>
       </Router>
     </>
   );
