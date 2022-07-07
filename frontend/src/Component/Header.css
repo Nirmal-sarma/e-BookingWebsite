@@ -10,6 +10,9 @@
       z-index: 100;
 }
 
+.NavBarContainer{
+      margin: 50px;
+}
 
 .Logo{ 
       font-size: 20px;
