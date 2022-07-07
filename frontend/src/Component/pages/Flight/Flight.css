@@ -1,0 +1,22 @@
+
+#FlightPage{
+      height: auto;
+      width: 100%;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: row;
+      margin-top: 45px;
+      font-size: 15px;
+}
+
+#FlightSideBar{
+      height: 500px;
+      width: 18%;
+      border:2px solid red;
+      
+}
+#FlightContainer{
+      height: 500px;
+      width: 82%;
+      border: 2px solid blue;
+}
