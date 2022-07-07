@@ -2,11 +2,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './Component/Header';
-import Train from './Component/pages/Train/Train';
-import Flight from './Component/pages/Flight/Flight';
-import Bus from './Component/pages/Bus/Bus';
-import Hotel from './Component/pages/Hotel/Hotel';
-import Home from './Component/pages/Home/Home';
+import Train from './pages/Train/Train';
+import Flight from './pages/Flight/Flight';
+import Bus from './pages/Bus/Bus';
+import Hotel from './pages/Hotel/Hotel';
+import Home from './pages/Home/Home';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
