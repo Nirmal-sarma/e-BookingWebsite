@@ -24,8 +24,6 @@ function App() {
           <Route exact path="/Bus" element={<Bus />} />
           <Route exact path="/Hotel" element={<Hotel />} />
         </Routes>
-        <Cards />
-        <Slider />
       </Router>
     </>
   );
