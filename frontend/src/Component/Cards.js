@@ -12,19 +12,24 @@ const Cards = () => {
               alt="image"
               className="src"
             />
-<<<<<<< HEAD
             <center>
               <button className="btn btn-danger">Click here</button>
             </center>
-=======
-          <div className="bottompart">
-          <div className="description"><h2><b>Luxe properties in India</b></h2></div>
-          <div><h3>Explore by luxury Brands,theme & picks</h3></div>
-          </div>
->>>>>>> a8d51268b2eab65747bfd59d2fa2824f46a967d4
+            <div className="bottompart">
+              <div className="description">
+                <h2>
+                  <b>Luxe properties in India</b>
+                </h2>
+              </div>
+              <div>
+                <h3>Explore by luxury Brands,theme & picks</h3>
+              </div>
+            </div>
           </figure>
           <figure className="second com">
-          <button type="button" class="btn btn-primary btn-lg center">Book Now</button>
+            <button type="button" class="btn btn-primary btn-lg center">
+              Book Now
+            </button>
           </figure>
         </div>
       </div>
