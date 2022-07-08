@@ -1,0 +1,54 @@
+.FlightCard{
+      height: auto;
+      width: 260px;
+}
+
+
+.CardBox{
+      height: auto;
+      width:  246px;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: aqua;
+      cursor: pointer;
+}
+
+
+.FlightImg img{
+      /* width: 246px;
+      height: 180px; */
+      height: 180px;
+      width: 100%;
+      border-radius: 5px;
+}
+
+.FlightInfo h4{
+      padding: 4px;
+      
+      text-align: center;
+}
+
+.AirportInfo{
+ display: flex;
+}
+.From{
+      width: 50%;
+}
+.To{
+      width: 50%;
+      
+}
+.From h4{
+      padding: 2px;
+     
+      text-align: center;
+}
+.To h4{
+      padding: 2px;
+     
+      text-align: center;
+}
+
+.FlightTiming{
+      display: flex;
+     }

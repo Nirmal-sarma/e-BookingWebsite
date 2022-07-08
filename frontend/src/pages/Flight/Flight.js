@@ -9,7 +9,7 @@ const Flight = () => {
       <FlightSideBar/>
       </div>
       <div id="FlightContainer">
-      <FlightContainer/>
+      <FlightContainer />
       </div>
     </div>
   )
