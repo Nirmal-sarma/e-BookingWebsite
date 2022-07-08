@@ -2,7 +2,6 @@
 #FlightPage{
       height: auto;
       width: 100%;
-      border: 2px solid black;
       display: flex;
       font-size: 15px;
 }
@@ -16,6 +15,5 @@
 #FlightContainer{
       height: auto;
       width: 82%;
-      border: 2px solid blue;
       display: flex;
 }

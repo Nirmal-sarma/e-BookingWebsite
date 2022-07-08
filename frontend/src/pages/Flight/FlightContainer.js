@@ -6,11 +6,10 @@ import './FlightContainer.css';
 const FlightContainer = () => {
   return (
     <div className='FlightContainer'>
-      <div>
+      
       {FlightsInfo.map((FlightInfo)=>{
         return <FlightCard  FlightsInfo={FlightInfo}/>
       })}
-      </div>
     </div>
   )
 }
