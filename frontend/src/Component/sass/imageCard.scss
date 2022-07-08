@@ -1,0 +1,9 @@
+.photos{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item-heading{
+    font-weight: 800;
+    font-size: 2rem;
+}

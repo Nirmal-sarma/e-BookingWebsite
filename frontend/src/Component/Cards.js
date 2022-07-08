@@ -1,5 +1,5 @@
-import React from "react";
-import "./Cards.css";
+import React from 'react';
+import './Cards.css';
 
 const Cards = () => {
   return (
@@ -12,7 +12,9 @@ const Cards = () => {
               alt="image"
               className="src"
             />
-            <center><button className="btn btn-danger">Click here</button></center>
+            <center>
+              <button className="btn btn-danger">Click here</button>
+            </center>
           </figure>
           <figure className="second com">
             <div className="secondpara">
