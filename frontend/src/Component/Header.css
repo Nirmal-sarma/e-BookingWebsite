@@ -8,8 +8,12 @@
       overflow: hidden;
       width: 100%;
       top: 0;
+      z-index: 100;
 }
 
+.NavBarContainer{
+      margin: 50px;
+}
 
 .Logo{ 
       font-size: 20px;
